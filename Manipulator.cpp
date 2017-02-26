@@ -2,7 +2,7 @@
 #include "Manipulator.h"
 using namespace std;
 Manipulator:: Manipulator(){}	// constructor
-Manipulator::~Manipulator(){}	// constructor 
+Manipulator::~Manipulator(){}	// destructor 
 
 void Manipulator::dumpFacts(ostream &os){
 for(auto it = Fact_map.begin(); it != Fact_map.end(); ++it) {
